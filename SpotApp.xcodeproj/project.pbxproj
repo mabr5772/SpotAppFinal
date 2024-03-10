@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66895DC72B9E65DC00848027 /* SpotAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DC62B9E65DC00848027 /* SpotAppApp.swift */; };
+		66895DC92B9E65DC00848027 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DC82B9E65DC00848027 /* ContentView.swift */; };
+		66895DCB2B9E65DC00848027 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DCA2B9E65DC00848027 /* Item.swift */; };
+		66895DCD2B9E65DD00848027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66895DCC2B9E65DD00848027 /* Assets.xcassets */; };
+		66895DD02B9E65DD00848027 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66895DCF2B9E65DD00848027 /* Preview Assets.xcassets */; };
+		66895DD72B9E661B00848027 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DD62B9E661B00848027 /* HomeView.swift */; };
+		66895DD92B9E664000848027 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DD82B9E664000848027 /* CallView.swift */; };
+		66895DDD2B9E667500848027 /* GpsInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DDC2B9E667400848027 /* GpsInputView.swift */; };
+		66895DDF2B9E668700848027 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DDE2B9E668700848027 /* LoginView.swift */; };
+		66895DE12B9E669700848027 /* CreateNewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DE02B9E669700848027 /* CreateNewAccountView.swift */; };
+		66895DE62B9E66AC00848027 /* YOASOBI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66895DE22B9E66AB00848027 /* YOASOBI.mp3 */; };
+		66895DE72B9E66AC00848027 /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66895DE32B9E66AB00848027 /* cat.mp3 */; };
+		66895DE82B9E66AC00848027 /* phone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66895DE42B9E66AC00848027 /* phone.mp3 */; };
+		66895DE92B9E66AC00848027 /* GS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66895DE52B9E66AC00848027 /* GS.mp3 */; };
+		66895DED2B9E740000848027 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DEC2B9E740000848027 /* UIColor.swift */; };
+		66895DEF2B9E74C000848027 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DEE2B9E74C000848027 /* AudioPlayer.swift */; };
+		66895DF52B9E7A0100848027 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66895DF42B9E7A0100848027 /* LandingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66895DC32B9E65DC00848027 /* SpotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66895DC62B9E65DC00848027 /* SpotAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotAppApp.swift; sourceTree = "<group>"; };
+		66895DC82B9E65DC00848027 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66895DCA2B9E65DC00848027 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		66895DCC2B9E65DD00848027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66895DCF2B9E65DD00848027 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66895DD62B9E661B00848027 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		66895DD82B9E664000848027 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		66895DDC2B9E667400848027 /* GpsInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsInputView.swift; sourceTree = "<group>"; };
+		66895DDE2B9E668700848027 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		66895DE02B9E669700848027 /* CreateNewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewAccountView.swift; sourceTree = "<group>"; };
+		66895DE22B9E66AB00848027 /* YOASOBI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YOASOBI.mp3; sourceTree = "<group>"; };
+		66895DE32B9E66AB00848027 /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		66895DE42B9E66AC00848027 /* phone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = phone.mp3; sourceTree = "<group>"; };
+		66895DE52B9E66AC00848027 /* GS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GS.mp3; sourceTree = "<group>"; };
+		66895DEC2B9E740000848027 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		66895DEE2B9E74C000848027 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		66895DF42B9E7A0100848027 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66895DC02B9E65DC00848027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66895DBA2B9E65DC00848027 = {
+			isa = PBXGroup;
+			children = (
+				66895DF42B9E7A0100848027 /* LandingView.swift */,
+				66895DEE2B9E74C000848027 /* AudioPlayer.swift */,
+				66895DEC2B9E740000848027 /* UIColor.swift */,
+				66895DE02B9E669700848027 /* CreateNewAccountView.swift */,
+				66895DDE2B9E668700848027 /* LoginView.swift */,
+				66895DDC2B9E667400848027 /* GpsInputView.swift */,
+				66895DD82B9E664000848027 /* CallView.swift */,
+				66895DD62B9E661B00848027 /* HomeView.swift */,
+				66895DC52B9E65DC00848027 /* SpotApp */,
+				66895DC42B9E65DC00848027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66895DC42B9E65DC00848027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66895DC32B9E65DC00848027 /* SpotApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66895DC52B9E65DC00848027 /* SpotApp */ = {
+			isa = PBXGroup;
+			children = (
+				66895DE32B9E66AB00848027 /* cat.mp3 */,
+				66895DE52B9E66AC00848027 /* GS.mp3 */,
+				66895DE42B9E66AC00848027 /* phone.mp3 */,
+				66895DE22B9E66AB00848027 /* YOASOBI.mp3 */,
+				66895DC62B9E65DC00848027 /* SpotAppApp.swift */,
+				66895DC82B9E65DC00848027 /* ContentView.swift */,
+				66895DCA2B9E65DC00848027 /* Item.swift */,
+				66895DCC2B9E65DD00848027 /* Assets.xcassets */,
+				66895DCE2B9E65DD00848027 /* Preview Content */,
+			);
+			path = SpotApp;
+			sourceTree = "<group>";
+		};
+		66895DCE2B9E65DD00848027 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66895DCF2B9E65DD00848027 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66895DC22B9E65DC00848027 /* SpotApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66895DD32B9E65DD00848027 /* Build configuration list for PBXNativeTarget "SpotApp" */;
+			buildPhases = (
+				66895DBF2B9E65DC00848027 /* Sources */,
+				66895DC02B9E65DC00848027 /* Frameworks */,
+				66895DC12B9E65DC00848027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotApp;
+			productName = SpotApp;
+			productReference = 66895DC32B9E65DC00848027 /* SpotApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66895DBB2B9E65DC00848027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					66895DC22B9E65DC00848027 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 66895DBE2B9E65DC00848027 /* Build configuration list for PBXProject "SpotApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66895DBA2B9E65DC00848027;
+			productRefGroup = 66895DC42B9E65DC00848027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66895DC22B9E65DC00848027 /* SpotApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66895DC12B9E65DC00848027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66895DD02B9E65DD00848027 /* Preview Assets.xcassets in Resources */,
+				66895DE72B9E66AC00848027 /* cat.mp3 in Resources */,
+				66895DE82B9E66AC00848027 /* phone.mp3 in Resources */,
+				66895DE62B9E66AC00848027 /* YOASOBI.mp3 in Resources */,
+				66895DE92B9E66AC00848027 /* GS.mp3 in Resources */,
+				66895DCD2B9E65DD00848027 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66895DBF2B9E65DC00848027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66895DC92B9E65DC00848027 /* ContentView.swift in Sources */,
+				66895DD72B9E661B00848027 /* HomeView.swift in Sources */,
+				66895DCB2B9E65DC00848027 /* Item.swift in Sources */,
+				66895DE12B9E669700848027 /* CreateNewAccountView.swift in Sources */,
+				66895DD92B9E664000848027 /* CallView.swift in Sources */,
+				66895DC72B9E65DC00848027 /* SpotAppApp.swift in Sources */,
+				66895DDF2B9E668700848027 /* LoginView.swift in Sources */,
+				66895DEF2B9E74C000848027 /* AudioPlayer.swift in Sources */,
+				66895DDD2B9E667500848027 /* GpsInputView.swift in Sources */,
+				66895DF52B9E7A0100848027 /* LandingView.swift in Sources */,
+				66895DED2B9E740000848027 /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66895DD12B9E65DD00848027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66895DD22B9E65DD00848027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66895DD42B9E65DD00848027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpotApp/Preview Content\"";
+				DEVELOPMENT_TEAM = BLRFR6W59H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SpotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66895DD52B9E65DD00848027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpotApp/Preview Content\"";
+				DEVELOPMENT_TEAM = BLRFR6W59H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.SpotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66895DBE2B9E65DC00848027 /* Build configuration list for PBXProject "SpotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66895DD12B9E65DD00848027 /* Debug */,
+				66895DD22B9E65DD00848027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66895DD32B9E65DD00848027 /* Build configuration list for PBXNativeTarget "SpotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66895DD42B9E65DD00848027 /* Debug */,
+				66895DD52B9E65DD00848027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66895DBB2B9E65DC00848027 /* Project object */;
+}
